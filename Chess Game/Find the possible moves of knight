@@ -1,0 +1,22 @@
+public class KnightMoves {
+    public static void main(String[] args) {
+        int row = 2; // current row position of the knight
+        int col = 3; // current column position of the knight
+
+        // Possible knight moves
+        int[][] moves = {{-2, -1}, {-2, 1}, {-1, -2}, {-1, 2}, {1, -2}, {1, 2}, {2, -1}, {2, 1}};
+
+        System.out.println("Possible knight moves from (" + row + ", " + col + "):");
+
+        // Calculate and print all possible moves
+        for (int[] move : moves) {
+            int newRow = row + move[0];
+            int newCol = col + move[1];
+
+            // Check if the move is within the chessboard limits (8x8)
+            if (newRow >= 0 && newRow < 8 && newCol >= 0 && newCol < 8) {
+                System.out.println("(" + newRow + ", " + newCol + ")");
+            }
+        }
+    }
+}
