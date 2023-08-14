@@ -1,0 +1,21 @@
+Amazon is having an operation called SalesCheck which takes input as Username and password and produces SalesProduct. 
+One SalesProduct means many items. 
+One item means many categories. 
+One Category means many brands.
+One Brand means many sizes.
+One size means many shapes.
+One shape means many colours.
+One colour means many prices.
+One price means many model.
+One model means many types.
+One type means many warranty.
+One warranty means many replacement.
+One Replacement means many products.
+One product means many dresses, mobiles, electronics and cosmetics.
+One dress means shirt and kurti.
+One mobile means mobile name and storage.
+One electronics means many Fridge, Washing machine and oven.
+One fridge means brand and ratings.
+One washing machine means brand.
+One oven means name.
+One cosmetics means cream.
