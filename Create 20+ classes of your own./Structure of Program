@@ -1,0 +1,73 @@
+class Amazon{
+  SProduct SalesCheck(String Username,String Password){
+  return new SProduct();
+  }
+}
+class SProduct{
+  Items[] i;
+}
+class Items{
+  Category[] c;
+}
+class Category{
+  Brand[] b;
+}
+class Brand{
+  Size[] s;
+}
+class Size{
+  Shape[] sh;
+}
+class Shape{
+  Colour[] co;
+}
+class Colour{
+  Price[] p;
+}
+class Price{
+  Model[] m;
+}
+class Model{
+  Type[] t;
+}
+class Type{
+  Warranty[] w;
+}
+class Warranty{
+  Replacement [] r;
+}
+class Replacement {
+  Product[] pro;
+}
+class Product{
+  Dress[] d;
+  Mobile[] mo;
+  Electroncs[] ele;
+  Cosmetics[] cos;
+}
+class Dress{
+  String Shirt;
+  String Kurti;
+}
+class Mobile{
+  String Model_name;
+  int Storage;
+}
+class Electronics{
+  Fridge[] frid;
+  WashingMachine[] wm;
+  Oven[] ov;
+}
+class Fridge{
+  String Brand;
+  int Ratings;
+}
+class WashingMachine{
+  String Brand;
+}
+class Oven{
+  String Name;
+}
+class Cosmetics{
+  String cream;
+}
