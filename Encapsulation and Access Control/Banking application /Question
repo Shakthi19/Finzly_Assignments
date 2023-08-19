@@ -1,0 +1,4 @@
+You are designing a banking application.
+Create a class BankAccount with private properties like accountNumber, balance, and ownerName. 
+Provide public methods for depositing, withdrawing, and getting the balance. 
+Implement encapsulation by restricting direct access to the properties and using public methods to interact with them.
