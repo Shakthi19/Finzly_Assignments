@@ -1,0 +1,4 @@
+Design a shape hierarchy for a drawing application. 
+Create an interface Shape with methods calculateArea() and calculatePerimeter().
+Implement classes like Circle, Rectangle, and Triangle that implement the Shape interface. 
+Demonstrate abstraction by calculating and displaying the area and perimeter of different shapes.
