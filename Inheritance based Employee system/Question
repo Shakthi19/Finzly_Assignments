@@ -1,0 +1,21 @@
+Develop a Java program that demonstrates inheritance by creating a hierarchy of employees in an 
+organization.
+**Requirements:**
+1. **Employee Classes:**
+ Create a base class named `Employee` with the following attributes:
+ - `id`: An integer representing the employee's unique identifier.
+ - `name`: A string representing the employee's name.
+ Implement methods for getting and setting these attributes.
+2. **Derived Classes:**
+ Implement the following derived classes that inherit from the `Employee` class:
+ - `Manager`: A class representing managers. Add an attribute `department` to store the 
+department they manage.
+ - `Developer`: A class representing developers. Add an attribute `programmingLanguage` to store 
+the primary programming language they use.
+3. **User Interaction:**
+ Create a simple user interface where users can create instances of the `Manager` and `Developer` 
+classes. Allow users to input attributes like name, id, department (for managers), and programming 
+language (for developers). Display the details of each employee and 
+4. **target**
+Illustrate the hierarchy of the employee classes, emphasizing the parent-child relationship between 
+`Employee`, `Manager`, and `Developer`
