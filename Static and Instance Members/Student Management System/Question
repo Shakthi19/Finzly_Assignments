@@ -1,0 +1,3 @@
+Build a student management system.
+Create a class Student with instance variables like studentID, name, and a static variable totalStudents to keep track of the number of students.
+Implement methods to enroll and drop students, updating the totalStudents count accordingly.
