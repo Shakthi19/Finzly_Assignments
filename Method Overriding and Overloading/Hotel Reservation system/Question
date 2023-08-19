@@ -1,0 +1,4 @@
+Build a reservation system for a hotel.
+Create a class Room with properties like roomNumber, capacity, and pricePerNight.
+Implement methods to check availability and make a reservation. Override the toString() method to provide a customized string representation of a room. 
+Implement method overloading for reservation methods to handle different scenarios, like reserving with or without specific check-in/check-out dates.
