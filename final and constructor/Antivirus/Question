@@ -1,0 +1,6 @@
+Design an application where we need to have more than one constructor in a class.
+The final value of productkey should activate the antivirus for all clients who purchased the antivirus and those who not purchased they should get the message saying-"
+
+Remember: Transaction class should be there to process the transaction. 
+Once the transaction done, then and then productKey should be approved. 
+Else msg should be displayed saying "Transaction is not done - please pay first to activate product key"You are using free version, please upgrade"
