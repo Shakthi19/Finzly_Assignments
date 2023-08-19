@@ -1,0 +1,19 @@
+**Problem Description:**
+Design a Java program that demonstrates how interfaces work by creating different types of vehicles 
+and making them start, accelerate, and brake.
+**Requirements:**
+1. **Interface:**
+ Create a rulebook named `Vehicle` that lists what actions a vehicle must promise to perform:
+ - `start()`: Vehicle must know how to start.
+ - `accelerate()`: Vehicle must know how to speed up.
+ - `brake()`: Vehicle must know how to stop.
+2. **Vehicle Classes:**
+ Make different vehicles (like cars and motorcycles) follow the `Vehicle` rulebook:
+ - `Car`: A car should know how to start its engine, accelerate, and apply brakes.
+ - `Motorcycle`: A motorcycle should know how to start its engine, accelerate, and apply brakes.
+3. **User Interaction:**
+ Create a simple way for users to "play" with these vehicles. They should be able to start, speed up, 
+and stop each vehicle.
+4. **Polymorphism:**
+ Show how vehicles can be treated in a similar way, regardless of whether they are cars or 
+motorcycles. Use the rulebook to ensure that all vehicles can perform the same actions.
