@@ -1,0 +1,14 @@
+Develop a Java program that demonstrates polymorphism by creating a set of shapes and performing 
+various calculations and operations on them using a common interface.
+**Requirements:**
+1. **Interface and Classes:**
+ Define an interface called `Shape` with methods like `calculateArea()` and `calculatePerimeter()`. 
+Implement this interface in the following classes:
+ - `Circle`: A class representing a circle with attributes like radius.
+ - `Rectangle`: A class representing a rectangle with attributes like width and height.
+ - `Triangle`: A class representing a triangle with attributes like base and height.
+2. **Polymorphism:**
+ Create an array or collection of `Shape` objects that includes instances of `Circle`, `Rectangle`, and 
+`Triangle`. Demonstrate polymorphism by iterating through this collection and calling the 
+`calculateArea()` and `calculatePerimeter()` methods on each object, even though they are of 
+different types
