@@ -1,0 +1,5 @@
+You are building a system for a zoo.
+Create a base class Animal with properties like name and age, and a method makeSound().
+Derive classes like Lion, Elephant, and Giraffe from Animal, each with their specific sound implementation.
+Implement a Zoo class to manage a collection of animals.
+Demonstrate polymorphism by iterating through the collection and calling the makeSound() method for each animal
