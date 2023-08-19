@@ -1,0 +1,20 @@
+**Problem Description:**
+Develop a Java program that illustrates the use of constructors by modeling a simple student 
+information system.
+**Requirements:**
+1. **Class Definition:**
+ Define a class named `Student` with the following attributes:
+ - `name`: A string representing the student's name.
+ - `age`: An integer representing the student's age.
+ - `studentId`: A unique identifier for each student.
+2. **Constructors:**
+ Implement the following constructors for the `Student` class:
+ - A default constructor that initializes the student's name as "Unknown", age as 0, and assigns a 
+unique student ID.
+ - A parameterized constructor that accepts the student's name and age and assigns a unique 
+student ID.
+ - Overload the parameterized constructor to also accept the student's age.
+3. **User Interaction:**
+ Create a simple user interface where users can create instances of the `Student` class using 
+different constructors. Allow users to input the student's name and age, and display the student's 
+details.
