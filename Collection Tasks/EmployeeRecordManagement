@@ -1,6 +1,0 @@
-Implement a program in Java that manages employee records using the 
-Collection Framework. The program should allow users to perform various 
-operations related to employee records, such as adding employees, viewing 
-their details, and searching for employees based on their ID. Use suitable data 
-structures from the Collection Framework to store and manage employee 
-records
