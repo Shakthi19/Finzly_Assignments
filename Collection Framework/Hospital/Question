@@ -1,0 +1,3 @@
+example of a hospital management system program in Java that uses a HashMap 
+to manage patient records. This program allows users to add patients, view their 
+details, search for patients by their ID, and list all patients.
