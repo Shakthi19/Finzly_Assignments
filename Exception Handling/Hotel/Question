@@ -1,0 +1,51 @@
+
+You are tasked with developing a Hotel Management System 
+that utilizes collections and polymorphism to efficiently 
+manage various aspects of a hotel's operations. The system 
+needs to handle exceptions effectively by implementing 
+custom exception classes for better error management and 
+user-friendly feedback.
+**Requirements:**
+1. **Guest and Reservation Management:**
+ - Implement classes for Guests and Reservations, utilizing 
+polymorphism to accommodate different reservation types 
+(e.g., room, event hall, spa services).
+ - Maintain collections to store information about guests and 
+their reservations.
+2. **Room Management:**
+ - Design a hierarchy of Room classes (e.g., Standard, Deluxe, 
+Suite), demonstrating inheritance and polymorphism.
+ - Implement a collection to manage room availability and 
+reservations.
+3. **Exception Handling:**
+ - Create a set of custom exception classes that inherit from 
+the base Exception class, catering to different error scenarios 
+(e.g., InvalidReservationException, RoomNotFoundException).
+ - Implement try-catch blocks to handle these custom 
+exceptions gracefully and provide meaningful error messages 
+to users.
+ - Ensure that the exception handling does not disrupt the 
+overall flow of the application.
+4. **User Interface:**
+ - Develop a simple command-line interface that allows users 
+to interact with the system.
+ - Provide options for guests to make reservations, inquire 
+about room availability, and manage their bookings.
+ - Implement error handling in the user interface to catch 
+exceptions and provide informative feedback to users.
+5. **Persistence (Optional):**
+ - Integrate file-based storage to save and load reservation 
+and guest information to maintain data across sessions.
+**Guidelines:**
+- Utilize object-oriented principles like encapsulation, 
+inheritance, and polymorphism to create a well-structured and 
+maintainable codebase.
+- Implement proper validation to ensure the accuracy of data 
+entered by users.
+- Prioritize user experience by providing clear and concise 
+messages during exception handling.
+- Use appropriate design patterns and programming practices 
+to ensure the code is clean and extensible.
+- Maintain separation of concerns by separating different 
+components (e.g., reservation management, exception 
+handling, user interface)
