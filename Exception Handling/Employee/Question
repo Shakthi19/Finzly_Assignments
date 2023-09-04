@@ -1,0 +1,64 @@
+**Description:**
+You have been assigned the task of developing an advanced 
+Hotel Management System that focuses on managing different 
+categories of employees within the hotel. This system should 
+utilize collections and polymorphism to efficiently organize 
+employee data and responsibilities. Effective exception 
+handling through custom exception classes should be 
+implemented to ensure smooth operation and user-friendly 
+error feedback.
+**Requirements:**
+1. **Employee Categories:**
+ - Define distinct employee categories such as Front Desk, 
+Housekeeping, Kitchen Staff, Maintenance, etc.
+ - Create a base `Employee` class and derive specialized 
+classes for each employee category, showcasing the use of 
+inheritance and polymorphism.
+ - Implement appropriate data fields and methods specific to 
+each employee category, such as `checkInGuests()` for Front 
+Desk and `cleanRoom()` for Housekeeping.
+2. **Employee Management:**
+ - Utilize collections (e.g., lists, dictionaries) to store and 
+manage employee information. Each category should have its 
+own collection.
+ - Develop methods to hire, fire, and update employee details 
+in the respective collections.
+ - Implement a mechanism to assign and manage tasks based 
+on employee categories.
+3. **Exception Handling:**
+ - Design and implement a set of custom exception classes 
+that extend the base Exception class. These exceptions should 
+cater to scenarios like an attempt to hire a duplicate employee 
+or an invalid task assignment.
+ - Employ try-catch blocks to handle these custom exceptions, 
+ensuring that the system remains stable and provides clear 
+error messages to users.
+4. **User Interface:**
+ - Develop an intuitive command-line or graphical user 
+interface that facilitates interactions with the Hotel 
+Management System.
+ - Provide functionalities for hiring employees, updating their 
+details, assigning tasks, and handling exceptions.
+ - Implement error handling in the user interface to gracefully 
+handle exceptions and guide users on corrective actions.
+5. **Reports and Analytics:**
+ - Implement features to generate reports on employee 
+performance, task completion rates, and overall departmental 
+statistics.
+ - Leverage collections to gather relevant data and present it 
+to managers or administrators.
+6. **Persistence (Optional):**
+ - Incorporate data persistence by integrating file-based 
+storage to retain employee data between system sessions.
+**Guidelines:**
+- Adhere to object-oriented principles while designing the 
+employee hierarchy and their responsibilities.
+- Implement robust validation mechanisms to ensure the 
+accuracy of employee information and task assignments.
+- Prioritize user experience by providing clear error messages 
+and helpful instructions in case of exceptions.
+- Use design patterns and best coding practices to maintain a 
+modular and extensible codebase.
+- Separate different concerns (e.g., employee management, 
+exception handling, reporting) to ensure a modular 
+architecture.
