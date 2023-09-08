@@ -1,0 +1,14 @@
+Develop a Java application that utilizes Hibernate's built-in functions to address the following scenario:
+You are tasked with creating a database-driven application to manage a library's book inventory. The 
+application should allow users to perform the following operations:
+1. Add a new book to the library's inventory, including details such as title, author, publication year, 
+and ISBN.
+2. Search for books in the inventory based on specific criteria. Use Hibernate's built-in functions to 
+implement the following search options:
+ a. Search for books published within a certain range of years.
+ b. Search for books written by a specific author.
+ c. Search for books with a specific title or containing specific keywords in the title.
+ d. Search for books with a specific ISBN number.
+ e. Display all books currently available in the library.
+3. Update the details of a book in the inventory, including title, author, publication year, and ISBN.
+4. Delete a book from the inventory.
