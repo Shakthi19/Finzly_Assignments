@@ -1,0 +1,17 @@
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/shakthi</property>
+        <property name="hibernate.connection.username">Shakthi</property>
+        <property name="hibernate.connection.password">Shakthisri@26</property>
+        <property name="hibernate.connection.pool_size">1</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <mapping class="com.Emp.EmployeeHibernate" />
+    </session-factory>
+</hibernate-configuration>
