@@ -1,0 +1,20 @@
+Develop a Java-based Employee Management System using Hibernate for efficient management of 
+employee data within an organization. The application should address the following requirements:
+1. *Employee Data:*
+ - Design a system to store employee information, including attributes like employee ID, first name, 
+last name, date of birth, email, department, and salary.
+2. *CRUD Operations:*
+ - Implement CRUD operations for managing employee data using Hibernate's Session methods.
+Specifically, provide the ability to:
+ a. *Create:* Add new employees to the system by entering their details.
+ b. *Read:* Allow users to:
+ - Retrieve employee details by their ID.
+ - List all employees in the organization.
+ c. *Update:* Enable users to modify employee information, including their first name, last name, 
+email, department, and salary.
+ d. *Delete:* Allow users to remove employees from the system.
+3. *Criteria Functionality:*
+ a. Get the employees who is having salary getter that 30000.
+ b. Get the employees who has department developer and tester
+ c. Get the employees from all the departments other than tester.
+ d. Sort (descending) the employees based of their salary.
