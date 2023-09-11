@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var Assignment5baseclass_1 = require("./Assignment5baseclass");
+var Assignment5derivedclass_1 = require("./Assignment5derivedclass");
+var Assignment5subclass_1 = require("./Assignment5subclass");
+var dev = new Assignment5derivedclass_1.Project("Shakthi");
+dev.display();
+var emp = new Assignment5subclass_1.Developer("Sri");
+emp.display();
+var job = new Assignment5baseclass_1.Employee("SSS");
+job.display();
