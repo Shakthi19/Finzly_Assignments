@@ -1,0 +1,9 @@
+1. HelloWorld Application
+2. Create employee component manually
+3. Create Student Component through CLI
+4. Apply PropertyBinding to input tag of value attribute
+5. Apply Class Binding to button, when button on click to change text style to italic & text color should be change.
+6. Implement Click Event & send Data to component file
+7. Write a program for Prime Number, to take dynamic data from end user & find out whether number is  prime or not prime number & display the result on View file.
+8. Create json object in html and perform under ngclass
+9. Design Login Form & validate it.
