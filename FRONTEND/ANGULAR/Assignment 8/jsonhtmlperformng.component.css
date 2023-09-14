@@ -1,0 +1,24 @@
+
+.active-class {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .inactive-class {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .highlight-class {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+  .disabled-class {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  

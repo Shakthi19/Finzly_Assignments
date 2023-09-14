@@ -1,0 +1,12 @@
+<p>jsonhtmlperformng works!</p>
+
+<div [ngClass]="{
+    'active-class': isActive,
+    'inactive-class': !isActive,
+    'highlight-class': isHighlighted,
+    'disabled-class': isDisabled
+  }">
+    <p>This is a styled paragraph.</p>
+    <button (click)="toggleStatus()">Toggle Status</button>
+  </div>
+  
