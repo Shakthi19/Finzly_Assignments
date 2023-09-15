@@ -7,3 +7,7 @@
 7. Write a program for Prime Number, to take dynamic data from end user & find out whether number is  prime or not prime number & display the result on View file.
 8. Create json object in html and perform under ngclass
 9. Design Login Form & validate it.
+10. Change the width of input box when user enter the number in input box
+11. Set image to div and on mouse hover change the transparency/opacity of the image Hint use opacity css property & also use mouseout event & mouseover.
+12. Create web page containing Employee having fields id, name, salary & two buttons name viz add & remove button. When we click add button dynamic value is added And display that data on web page.When we click on Remove Button the particular data will remove.
+ 
