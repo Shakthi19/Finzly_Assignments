@@ -1,0 +1,12 @@
+.image-container {
+    position: relative;
+    width: 250px; 
+    height: 250px;
+    overflow: hidden; 
+    transition: opacity 0.5s; 
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
