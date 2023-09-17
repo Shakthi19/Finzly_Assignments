@@ -1,0 +1,2 @@
+Write a Program to send rating (as number) from parent component to child component. 
+In child component check whether rating is less than 6 then apply background color.
