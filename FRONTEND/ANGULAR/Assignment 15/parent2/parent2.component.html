@@ -1,0 +1,3 @@
+<p>parent2 works!</p>
+<input type="number" [(ngModel)]="rating" (ngModelChange)="updateRating($event)" placeholder="Enter Rating" />
+<app-child [rating]="rating"></app-child>
