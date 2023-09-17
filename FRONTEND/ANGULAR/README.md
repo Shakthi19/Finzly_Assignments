@@ -10,4 +10,6 @@
 10. Change the width of input box when user enter the number in input box
 11. Set image to div and on mouse hover change the transparency/opacity of the image Hint use opacity css property & also use mouseout event & mouseover.
 12. Create web page containing Employee having fields id, name, salary & two buttons name viz add & remove button. When we click add button dynamic value is added And display that data on web page.When we click on Remove Button the particular data will remove.
- 
+13. Send Json object from child to parent.
+14. Display the button vertically center in view child.
+15. Write a Program to send rating (as number) from parent component to child component. In child component check whether rating is less than 6 then apply background color.
