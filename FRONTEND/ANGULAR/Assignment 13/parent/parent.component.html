@@ -1,0 +1,9 @@
+<p>parent works!</p>
+<div>
+    <h2>Parent Component</h2>
+    <app-child (dataToParent)="receiveDataFromChild($event)"></app-child>
+    <div>
+      <h3>Data received from child:</h3>
+      <pre>{{ receivedData | json }}</pre>
+    </div>
+  </div>
